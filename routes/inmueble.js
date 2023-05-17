@@ -15,4 +15,5 @@ router.post("/upload-image/:id", multipartMiddleware, PropertyController.uploadI
 router.put('/property/:id', PropertyController.updateProperty);
 router.delete('/property/:id', PropertyController.deleteProperty);
 
+
 module.exports = router;
